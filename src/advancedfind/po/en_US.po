@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: .gnome 2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-02-17 01:02+0800\n"
+"POT-Creation-Date: 2014-08-24 22:02-0500\n"
 "PO-Revision-Date: 2010-10-17 19:33+0800\n"
 "Last-Translator: swatch <swatch.code@gmail.com>\n"
 "Language-Team: none\n"
@@ -17,76 +17,51 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../advancedfind.py:150 ../advancedfind.py:218 ../advancedfind.py:661
-#: ../FindDialog.glade:12
+#: ../advancedfind.py:116 ../FindDialog.glade:12
 msgid "Advanced Find/Replace"
 msgstr "Advanced Find/Replace"
 
-#: ../advancedfind.py:219
-msgid "Find Next"
-msgstr "Find Next"
-
-#: ../advancedfind.py:220
-msgid "Find Previous"
-msgstr "Find Previous"
-
-#: ../advancedfind.py:221
-msgid "Select and Find Next"
-msgstr "Select and Find Next"
-
-#: ../advancedfind.py:222
-msgid "Select and Find Previous"
-msgstr "Select and Find Previous"
-
-#: ../advancedfind.py:223
-msgid "Advanced Find/Replace Settings"
-msgstr "Advanced Find/Replace Settings"
-
-#: ../advancedfind.py:376
+#: ../advancedfind.py:285
 msgid "Nothing is found."
 msgstr "Nothing is found."
 
-#: ../advancedfind_ui.py:449
-msgid "Finding..."
-msgstr "Finding"
-
-#: ../advancedfind_ui.py:494
-msgid "Replacing..."
-msgstr "Replacing..."
-
-#: ../advancedfind_ui.py:520
+#: ../advancedfind_ui.py:465
 msgid "Replace in this scope is not supported."
 msgstr "Replace in this scope is not supported."
 
-#: ../find_result.py:111 ../find_result.py:188
+#: ../find_result.py:120 ../find_result.py:165 ../find_result.py:205
+msgid "Find/Replace"
+msgstr "Find/Replace"
+
+#: ../find_result.py:123 ../find_result.py:206
 msgid "Next"
 msgstr "Next"
 
-#: ../find_result.py:114 ../find_result.py:152 ../find_result.py:189
+#: ../find_result.py:126 ../find_result.py:166 ../find_result.py:207
 msgid "Expand All"
 msgstr "Expand All"
 
-#: ../find_result.py:117 ../find_result.py:153 ../find_result.py:190
+#: ../find_result.py:129 ../find_result.py:167 ../find_result.py:208
 msgid "Collapse All"
 msgstr "Collapse All"
 
-#: ../find_result.py:120 ../find_result.py:154 ../find_result.py:191
+#: ../find_result.py:132 ../find_result.py:168 ../find_result.py:209
 msgid "Clear Highlight"
 msgstr "Clear Highlight"
 
-#: ../find_result.py:123 ../find_result.py:155 ../find_result.py:192
+#: ../find_result.py:135 ../find_result.py:169 ../find_result.py:210
 msgid "Clear"
 msgstr "Clear"
 
-#: ../find_result.py:126 ../find_result.py:156 ../find_result.py:193
+#: ../find_result.py:138 ../find_result.py:170 ../find_result.py:211
 msgid "Stop"
 msgstr "Stop"
 
-#: ../find_result.py:158
+#: ../find_result.py:172
 msgid "Markup"
 msgstr "Markup"
 
-#: ../find_result.py:183
+#: ../find_result.py:200
 msgid "Show Buttons"
 msgstr "Show Buttons"
 
@@ -125,6 +100,11 @@ msgstr "Replace with : "
 #: ../FindDialog.glade:103
 msgid "Find what : "
 msgstr "Find what : "
+
+#: ../FindDialog.glade:121 ../FindDialog.glade:151 ../FindDialog.glade:206
+#: ../FindDialog.glade:258
+msgid "-- Bookmarks --"
+msgstr ""
 
 #: ../FindDialog.glade:129 ../FindDialog.glade:159 ../FindDialog.glade:214
 #: ../FindDialog.glade:270
@@ -261,6 +241,27 @@ msgstr "Cancel"
 #: ../FindDialog.glade:896
 msgid "Ok"
 msgstr "Ok"
+
+#~ msgid "Find Next"
+#~ msgstr "Find Next"
+
+#~ msgid "Find Previous"
+#~ msgstr "Find Previous"
+
+#~ msgid "Select and Find Next"
+#~ msgstr "Select and Find Next"
+
+#~ msgid "Select and Find Previous"
+#~ msgstr "Select and Find Previous"
+
+#~ msgid "Advanced Find/Replace Settings"
+#~ msgstr "Advanced Find/Replace Settings"
+
+#~ msgid "Finding..."
+#~ msgstr "Finding"
+
+#~ msgid "Replacing..."
+#~ msgstr "Replacing..."
 
 #~ msgid "Use default font"
 #~ msgstr "Use default font"
